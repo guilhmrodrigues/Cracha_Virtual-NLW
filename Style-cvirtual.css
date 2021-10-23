@@ -43,6 +43,19 @@ main {
     z-index: 1;
 }
 
+@keyframes loading {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animation {
+    animation: loading 15s linear infinite;
+  }
+
 .avatar > img {
     width: 10rem;
     height: 11.5rem;
